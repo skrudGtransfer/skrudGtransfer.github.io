@@ -1,0 +1,366 @@
+@font-face {
+	font-family: name1;
+	src: url(fonts/1.ttf);
+}
+body{
+	text-shadow: black 0 0 2px;
+    margin: 0;
+    font-size: 0; 
+	font-family: name1;
+	max-width: 100%;
+	justify-content: center;
+	min-height: 100vh;
+    overflow-x: hidden;
+	background-color: rgb(216, 216, 197);
+}
+#header{
+	position: sticky;
+	top: 0;
+	width: 100%;
+	height: 40px;
+	margin: 0 auto;
+	color: rgb(255,255,0);
+	background-color: rgb(20, 20, 20);
+	z-index: 10000;
+}
+#header .logo img{
+	position: sticky;
+	width: 29,125px;
+	height: 35px;
+}
+#header .logo img:hover{
+	transition-duration: 0.75s;
+	transform: rotate(360deg);
+}
+#header a{
+	text-decoration-line: none;
+}
+#header .btn{
+	padding: 5px;
+	height: 30px;
+	line-height: 0px;
+	position: relative;
+	font-size: 20px;
+	left: 35px;
+	top: -35px;
+	color: rgb(217, 219, 177);
+	text-transform: uppercase; 
+	display: inline-block;
+	vertical-align: middle;
+	transition-duration: 200ms;
+	transition-property: color;
+}
+#header .btn:hover{
+	color: #974;
+}
+#header .btn-2{
+	padding: 5px;
+	height: 30px;
+	font-size: 30px;
+	line-height: 0px;
+	position: relative;
+	font-size: 20px;
+	left: 35px;
+	top: -24px;
+	text-transform: uppercase; 
+	display: inline-block;
+	vertical-align: middle;
+	transition-duration: 200ms;
+	transition-property: color;
+}
+#header .btn-2 a{
+	color: rgb(217, 219, 177);
+}
+#header .btn-2 a:hover{
+	color: #974;
+}
+#header .btn-3{
+	padding: 5px;
+	height: 30px;
+	font-size: 30px;
+	line-height: 0px;
+	position: relative;
+	font-size: 20px;
+	left: 35px;
+	top: -23.5px;
+	text-transform: uppercase; 
+	display: inline-block;
+	vertical-align: middle;
+	transition-duration: 200ms;
+	transition-property: color;
+}
+#header .btn-3 a{
+	color: rgb(217, 219, 177);
+}
+#header .btn-3 a:hover{
+	color: #974;
+}
+#header .btn .submenu{
+	top: 100%;
+	left: 0;
+	position: absolute;
+	min-width: 125px;
+	min-height: 160px;
+	border-radius: 1px; 
+	background-color: rgb(20, 20, 20);
+	transform: translateY(-50%) scaleY(0);
+	transition-duration: 200ms;
+	transition-property: transform;
+}
+#header .btn:hover .submenu{
+	transform: translateY(0) scaleY(1);
+}
+#header .btn .submenu-btn{
+	position: relative;
+	padding: 5px;
+	height: 10px;
+	line-height: 45px;
+	color: rgb(217, 219, 177);
+	transition-duration: 200ms;
+	transition-property: color;
+}
+#header .btn .submenu-btn a{
+	color: rgb(217, 219, 177);
+	font-size: 15px;
+}
+#header .btn .submenu-btn .es:hover{
+	color: #974;
+}
+#header .btn .submenu-btn .ua:hover{
+	color: #974;
+}
+#header .btn .submenu-btn .usa:hover{
+	color: #974;
+}
+#header .btn .submenu-btn .ru:hover{
+	color: #974;
+}
+#header .btn .submenu-btn .col:hover{
+	color: #974;
+}
+#header .btn .arr{
+	display: inline-block;
+	height: 20px;
+	width: 20px;
+	background-color: #dd8;
+	clip-path: polygon(0% 20%,50% 60%,100% 20%,100% 40%,50% 70%,0% 40%);
+}
+#header .btn:hover .arr{
+	background-color: #974;
+	clip-path: polygon(0% 80%,50% 40%,100% 80%,100% 60%,50% 30%,0% 60%);
+	transition-duration: 200ms;
+	transition-property: background-color,clip-path;
+}
+#header .btn-4{
+	padding: 5px;
+	height: 30px;
+	font-size: 30px;
+	line-height: 0px;
+	color: rgb(217, 219, 177);
+	position: relative;
+	font-size: 20px;
+	left: 35px;
+	top: -35px;
+	text-transform: uppercase; 
+	display: inline-block;
+	vertical-align: middle;
+	transition-duration: 200ms;
+	transition-property: color;
+}
+#header .btn-4:hover{
+	color: #974;
+}
+#header .btn-4 .submenu{
+	top: 100%;
+	left: 0;
+	position: absolute;
+	min-width: 125px;
+	min-height: 160px;
+	border-radius: 1px; 
+	background-color: rgb(20, 20, 20);
+	transform: translateY(-50%) scaleY(0);
+	transition-duration: 200ms;
+	transition-property: transform;
+}
+#header .btn-4:hover .submenu{
+	transform: translateY(0) scaleY(1);
+}
+#header .btn-4 .submenu-btn a{
+	color: rgb(217, 219, 177);
+	font-size: 15px;
+}
+#header .btn-4 .submenu-btn span{
+	color: rgb(217, 219, 177);
+	font-size: 15px;
+}
+#header .btn-4 .arr{
+	display: inline-block;
+	height: 20px;
+	width: 20px;
+	background-color: #dd8;
+	clip-path: polygon(0% 20%,50% 60%,100% 20%,100% 40%,50% 70%,0% 40%);
+}
+#header .btn-4:hover .arr{
+	background-color: #974;
+	clip-path: polygon(0% 80%,50% 40%,100% 80%,100% 60%,50% 30%,0% 60%);
+	transition-duration: 200ms;
+	transition-property: background-color,clip-path;
+}
+#header .btn-4 .submenu-btn{
+	position: relative;
+	padding: 5px;
+	height: 30px;
+	line-height: 45px;
+	color: rgb(217, 219, 177);
+	transition-duration: 200ms;
+	transition-property: color;
+}
+#header .btn-4 a{
+	color: rgb(217, 219, 177);
+}
+#header .btn-4 a:hover{
+	color: #974;
+}
+.search-box{
+	font-size: 20px;
+	left: 0;
+	top: 150px;
+	display: flex;
+	z-index: 1000;
+	position: absolute;
+	padding-left: 5px;
+	background-color: rgb(59, 59, 57);
+	height: 20px;
+	border-radius: 40px;
+	padding: 10px;
+}
+.search-btn{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #f0f0f0;
+	width: 40px;
+	height: 20px;
+	border-radius: 50%;
+	background-color: rgb(59, 59, 57);
+	text-decoration: none;
+}
+.search-txt{
+	border: none;
+	outline: none;
+	background: none;
+	padding: 0;
+	color: #fff;
+	font-size: 16px;
+	transition: .4s;
+	line-height: 40px;
+	width: 0;
+}
+.search-box:hover .search-txt{
+	width: 240px;
+	padding: 0 6px;
+}
+.container{
+	background-color: #222222;
+	text-align: center;
+	min-height: 1580px;
+	max-height: 100%;
+	position: relative;
+}
+.container a{
+	font-family: name1;
+}
+.container a.hide{
+	display: none;
+}
+#box1{
+	font-size: 20px;
+	z-index: 1000;
+	position: relative;
+	top: 25px;
+}
+#box1 button{
+	position: sticky;
+	width: 120px;
+	border-radius: 5px;
+	color: rgb(255, 255, 255);
+	background-color: rgb(88, 86, 86);
+}
+#box1 button:hover{
+	background-color: rgb(126, 126, 126);
+}
+#box2 .main-text{
+	font-size: 30px;
+	color: #fff;
+	font-family: name1;
+	padding: 30px;
+}
+#box2 .cards .card .img{
+	width: 50%;
+	height: 50%;
+}
+#box2 .card .text{
+	padding: 20px;
+}
+#box2 .card .text .date{
+	font-size: 25px;
+	color: rgb(185, 185, 185);
+}
+#box2 .card .text .big{
+	font-size: 25px;
+	color: rgb(207, 207, 207);
+	margin-top: 2px;
+	margin-bottom: 2px;
+	text-transform: uppercase;
+}
+#box2 .card .text .small{
+	font-size: 11px;
+	text-shadow: black 0 0 5px;
+	color: #fff;
+}
+#box2 .cards .card{
+	display: inline-block;
+	height: 300px;
+	z-index: 1000;
+	width: 550px;
+	vertical-align: top;
+	box-shadow: 0 0 10px #000;
+	background-color: #282828;
+	transition-duration: 200ms;
+	transition-property: box-shadow, transform;
+	transition-delay: 100ms;
+	transition-timing-function: ease-in; /*cubic-bezier(0, 1, 1, 1); */
+}
+#box2 .cards .card:hover{
+	box-shadow: 0 0 30px #000;
+	transform: translateY(-10px);
+}
+#footer{
+	background-color: #111;
+	padding: 20px;
+	bottom: 0;
+	position: sticky;
+	text-align: center;
+}
+#footer span{
+	font-size: 15px;
+	color: #aaa;
+	opacity: 1;
+	transition-duration: 200ms;
+	transition-property: opacity;
+	margin: 20px;
+}
+#footer a{
+	text-decoration-line: none;
+	color: #aaa;
+}
+#footer a:hover{
+	text-decoration-line: underline;
+}
+#s1:hover ~ #s2,
+#s1:hover ~ #s3{
+	opacity: 0.5;
+}
+#s2:hover ~ #s3{
+	opacity: 0.5;
+}
