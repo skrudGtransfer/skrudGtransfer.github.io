@@ -269,7 +269,7 @@ body{
 }
 .container img{
 	position: relative;
-	height: 130px;
+	width: 40%;
 }
 .card1 {
 	padding-top: 2.5%;
@@ -329,7 +329,7 @@ body{
 	display: inline-block;
 	height: 300px;
 	z-index: 1000;
-	width: 550px;
+	width: 35%;
 	vertical-align: top;
 	box-shadow: 0 0 10px #000;
 	background-color: #282828;
