@@ -267,6 +267,10 @@ body{
 	max-height: 100%;
 	position: relative;
 }
+.container img{
+	position: relative;
+	height: 130px;
+}
 .container a{
 	font-family: name1;
 }
@@ -294,10 +298,6 @@ body{
 	color: #fff;
 	font-family: name1;
 	padding: 30px;
-}
-#box2 .cards .card .img{
-	width: 50%;
-	height: 50%;
 }
 #box2 .card .text{
 	padding: 20px;
