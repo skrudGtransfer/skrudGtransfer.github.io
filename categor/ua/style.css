@@ -270,6 +270,13 @@ body{
 .container a{
 	font-family: name1;
 }
+.container img{
+	position: relative;
+	height: 130px;
+}
+.card1 {
+	padding-top: 2.5%;
+  }
 .container a.hide{
 	display: none;
 }

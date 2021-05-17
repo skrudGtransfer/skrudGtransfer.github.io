@@ -331,6 +331,9 @@ body{
 	transition-delay: 100ms;
 	transition-timing-function: ease-in; /*cubic-bezier(0, 1, 1, 1); */
 }
+.card1 {
+	padding-top: 2.5%;
+  }
 #box2 .cards .card:hover{
 	box-shadow: 0 0 30px #000;
 	transform: translateY(-10px);
